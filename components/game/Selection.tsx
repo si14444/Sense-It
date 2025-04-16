@@ -1,4 +1,5 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { useState } from "react";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 const Selection = ({
   selection,
@@ -7,34 +8,54 @@ const Selection = ({
   selection: string;
   onPress: () => void;
 }) => {
+  const [isPressed, setIsPressed] = useState(false);
+
   return (
-    <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={onPress}>
-        <Text style={styles.buttonText}>{selection}</Text>
-      </TouchableOpacity>
-    </View>
+    <TouchableOpacity
+      style={[styles.container, isPressed && styles.containerPressed]}
+      onPress={onPress}
+      onPressIn={() => setIsPressed(true)}
+      onPressOut={() => setIsPressed(false)}
+      activeOpacity={0.9}
+    >
+      <Text style={[styles.buttonText, isPressed && styles.buttonTextPressed]}>
+        {selection}
+      </Text>
+    </TouchableOpacity>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    backgroundColor: "#ffffff",
     alignItems: "center",
     width: "100%",
-    height: 90,
-    padding: 8,
+    height: "auto",
+    minHeight: 60,
+    padding: 15,
     justifyContent: "center",
     borderWidth: 1,
-    borderColor: "black",
-    borderRadius: 10,
+    borderColor: "#999",
+    borderRadius: 12,
+    marginBottom: 10,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 2,
   },
-  button: {
-    padding: 10,
-    borderRadius: 5,
+  containerPressed: {
+    backgroundColor: "#f0f0f0",
+    borderColor: "#bbb",
   },
   buttonText: {
-    fontSize: 20,
-    fontWeight: "bold",
+    fontSize: 18,
+    fontWeight: "500",
+    textAlign: "center",
+    color: "#444",
+  },
+  buttonTextPressed: {
+    color: "#222",
   },
 });
 

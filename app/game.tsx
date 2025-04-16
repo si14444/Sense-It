@@ -14,8 +14,8 @@ const Game = () => {
     .slice(0, 5)
     .map((question) => question);
 
+  // 선택지 선택 시 점수 증가
   const handleSelection = (choice: string) => {
-    console.log(currentIndex.current + 1, questions.length);
     if (currentIndex.current + 1 >= questions.length) {
       router.push({
         pathname: "/result",
@@ -72,12 +72,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     padding: 24,
-    paddingVertical: 48,
+    paddingVertical: 36,
   },
   selectionContainer: {
     width: "100%",
-    marginTop: 48,
-    gap: 24,
+    marginTop: 24,
+    gap: 12,
   },
 });
 export default Game;

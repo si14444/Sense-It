@@ -15,6 +15,7 @@ export default function Layout() {
         },
         title: "눈치 챙기기",
         headerBackVisible: false,
+        headerTitleAlign: "left",
         // headerBackTitle: "뒤로",
       }}
     >
