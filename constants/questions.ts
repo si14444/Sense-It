@@ -516,4 +516,524 @@ export const questionList = [
       { choice: "망설이다가 그냥 나온다.", score: 2 },
     ],
   },
+  {
+    id: 51,
+    situation: "식당에서 주문한 음식이 기대와 많이 달랐다.",
+    choices: [
+      { choice: "그래도 예의상 먹는다.", score: 3 },
+      { choice: "웨이터에게 정중히 다른 메뉴로 교환 요청한다.", score: 4 },
+      { choice: "식당을 평가하는 앱에 안 좋은 리뷰를 남긴다.", score: 2 },
+      { choice: "요리사를 불러 항의한다.", score: 1 },
+    ],
+  },
+  {
+    id: 52,
+    situation: "직장 동료가 내 개인 SNS를 팔로우 요청했다.",
+    choices: [
+      { choice: "수락하고 업무 관련 게시물만 공개하도록 설정한다.", score: 4 },
+      { choice: "거절한다.", score: 2 },
+      { choice: "수락은 하지만 팔로우 백은 하지 않는다.", score: 3 },
+      { choice: "계정을 비공개로 전환한다.", score: 2 },
+    ],
+  },
+  {
+    id: 53,
+    situation:
+      "사람들이 많은 대중교통에서 누군가 큰 소리로 전화통화를 하고 있다.",
+    choices: [
+      { choice: "무시하고 자신의 일에 집중한다.", score: 4 },
+      { choice: "조용히 해달라고 직접 말한다.", score: 3 },
+      { choice: "눈을 치켜뜨며 표정으로 불만을 표시한다.", score: 2 },
+      { choice: "똑같이 큰 소리로 전화통화를 한다.", score: 1 },
+    ],
+  },
+  {
+    id: 54,
+    situation: "직장 회식 자리에서 술을 권유받았지만 술을 마시지 않는다.",
+    choices: [
+      { choice: "정중히 거절하고 음료수를 마신다.", score: 4 },
+      { choice: "억지로 한 잔 마신다.", score: 2 },
+      { choice: "자리를 핑계 대고 일찍 퇴장한다.", score: 3 },
+      {
+        choice: "술을 못 마시는 사람들을 배려하지 않는 회식 문화를 비판한다.",
+        score: 1,
+      },
+    ],
+  },
+  {
+    id: 55,
+    situation:
+      "친구가 새로 산 옷이 어울리지 않는데 어떻게 생각하냐고 물어본다.",
+    choices: [
+      { choice: "솔직하지만 부드럽게 피드백을 준다.", score: 4 },
+      { choice: "무조건 예쁘다고 한다.", score: 2 },
+      { choice: "다른 친구의 의견을 물어보라고 한다.", score: 3 },
+      { choice: "환불하라고 직설적으로 말한다.", score: 1 },
+    ],
+  },
+  {
+    id: 56,
+    situation: "직장에서 중요한 프로젝트의 마감일을 놓쳤다.",
+    choices: [
+      { choice: "상황을 솔직히 인정하고 해결책을 제시한다.", score: 4 },
+      { choice: "다른 팀원 탓을 한다.", score: 1 },
+      { choice: "아프다고 거짓말한다.", score: 1 },
+      { choice: "마감일이 언제였는지 모르고 있었다고 변명한다.", score: 2 },
+    ],
+  },
+  {
+    id: 57,
+    situation: "온라인 모임에서 모두 카메라를 켰는데 나만 준비가 안 되어있다.",
+    choices: [
+      { choice: "간단히 양해를 구하고 카메라를 잠시 후에 켠다.", score: 4 },
+      { choice: "카메라가 고장났다고 거짓말한다.", score: 2 },
+      { choice: "그냥 카메라 없이 참여한다.", score: 3 },
+      { choice: "모임을 나간다.", score: 1 },
+    ],
+  },
+  {
+    id: 58,
+    situation: "친구 집에 초대받았는데 음식이 입맛에 맞지 않는다.",
+    choices: [
+      { choice: "감사히 조금이라도 먹고 칭찬한다.", score: 4 },
+      { choice: "솔직하게 맛이 없다고 말한다.", score: 1 },
+      { choice: "배가 아프다고 핑계를 댄다.", score: 2 },
+      { choice: "음식을 몰래 버린다.", score: 1 },
+    ],
+  },
+  {
+    id: 59,
+    situation: "공공장소에서 어떤 사람이 내 사진을 동의 없이 찍고 있다.",
+    choices: [
+      { choice: "정중하게 사진 삭제를 요청한다.", score: 4 },
+      { choice: "무시한다.", score: 2 },
+      { choice: "경찰에 신고한다.", score: 3 },
+      { choice: "그 사람의 핸드폰을 빼앗아 사진을 직접 지운다.", score: 1 },
+    ],
+  },
+  {
+    id: 60,
+    situation: "친구가 인스타그램에 나의 별로인 모습이 담긴 사진을 태그했다.",
+    choices: [
+      { choice: "메시지로 그 사진만 내려달라고 부탁한다.", score: 4 },
+      { choice: "친구 관계를 끊는다.", score: 1 },
+      { choice: "태그 삭제 후 모른 척한다.", score: 3 },
+      { choice: "친구도 별로인 사진을 찾아 올린다.", score: 1 },
+    ],
+  },
+  {
+    id: 61,
+    situation: "직장 동료가 내가 싫어하는 정치적 의견을 강하게 피력하고 있다.",
+    choices: [
+      { choice: "주제를 바꾸거나 대화에서 빠진다.", score: 4 },
+      { choice: "상대의 의견을 비난한다.", score: 1 },
+      { choice: "논쟁을 시작한다.", score: 2 },
+      { choice: "다른 동료들에게 저 사람에 대한 불만을 이야기한다.", score: 1 },
+    ],
+  },
+  {
+    id: 62,
+    situation:
+      "외국인 친구가 우리나라 음식 문화에 대해 부정적인 의견을 말했다.",
+    choices: [
+      { choice: "문화적 차이를 인정하고 이해시킨다.", score: 4 },
+      { choice: "그 나라의 문화도 비판한다.", score: 1 },
+      { choice: "무조건 우리 문화를 옹호한다.", score: 2 },
+      { choice: "그 친구와 더 이상 어울리지 않는다.", score: 1 },
+    ],
+  },
+  {
+    id: 63,
+    situation: "친구가 내 비밀을 다른 사람에게 말했다는 것을 알았다.",
+    choices: [
+      { choice: "친구와 1:1로 만나 왜 그랬는지 대화한다.", score: 4 },
+      { choice: "그 친구의 비밀도 다른 사람에게 말한다.", score: 1 },
+      { choice: "SNS에 친구를 저격하는 글을 올린다.", score: 1 },
+      { choice: "관계를 끊고 무시한다.", score: 2 },
+    ],
+  },
+  {
+    id: 64,
+    situation: "단체 여행 중 내가 원하지 않는 활동을 하자고 모두가 결정했다.",
+    choices: [
+      { choice: "다수의 의견을 존중하고 함께 참여한다.", score: 4 },
+      { choice: "혼자 호텔에 남는다.", score: 2 },
+      { choice: "불평하며 마지못해 따라간다.", score: 2 },
+      { choice: "여행을 중간에 포기하고 혼자 귀국한다.", score: 1 },
+    ],
+  },
+  {
+    id: 65,
+    situation: "카페에서 옆 테이블 사람들이 내 이야기를 듣고 있는 것 같다.",
+    choices: [
+      { choice: "목소리를 낮추거나 주제를 바꾼다.", score: 4 },
+      { choice: "일부러 더 크게 말한다.", score: 1 },
+      { choice: "그들을 노려본다.", score: 2 },
+      { choice: '"엿듣지 마세요"라고 직접 말한다.', score: 2 },
+    ],
+  },
+  {
+    id: 66,
+    situation: "자주 가는 가게의 직원이 항상 불친절하다.",
+    choices: [
+      { choice: "그래도 예의 바르게 대한다.", score: 4 },
+      { choice: "매니저에게 불만을 제기한다.", score: 3 },
+      { choice: "똑같이 불친절하게 대한다.", score: 1 },
+      { choice: "온라인에 악평을 남긴다.", score: 2 },
+    ],
+  },
+  {
+    id: 67,
+    situation: "SNS에서 내 게시물에 누군가 불쾌한 댓글을 달았다.",
+    choices: [
+      { choice: "댓글을 무시하거나 삭제한다.", score: 4 },
+      { choice: "더 심한 말로 반박한다.", score: 1 },
+      { choice: "개인 메시지로 항의한다.", score: 2 },
+      { choice: "상대방의 프로필을 찾아가 비슷한 행동을 한다.", score: 1 },
+    ],
+  },
+  {
+    id: 68,
+    situation: "친구가 계속해서 대화 중에 내 말을 끊는다.",
+    choices: [
+      { choice: "나중에 따로 불편함을 이야기한다.", score: 4 },
+      { choice: "똑같이 친구 말을 끊는다.", score: 1 },
+      { choice: "그 자리에서 바로 지적한다.", score: 2 },
+      { choice: "다음부터 그 친구와 대화를 최소화한다.", score: 3 },
+    ],
+  },
+  {
+    id: 69,
+    situation: "길을 가다가 전혀 모르는 사람이 갑자기 말을 걸어왔다.",
+    choices: [
+      { choice: "경계하면서도 예의 바르게 최소한으로 응대한다.", score: 4 },
+      { choice: "완전히 무시한다.", score: 2 },
+      { choice: "경찰에 신고한다.", score: 1 },
+      { choice: "친근하게 대화를 이어간다.", score: 2 },
+    ],
+  },
+  {
+    id: 70,
+    situation: "상사가 내 업무 시간 외에 계속 업무 관련 연락을 한다.",
+    choices: [
+      { choice: "적절한 시간에 대해 정중히 의견을 전달한다.", score: 4 },
+      { choice: "퇴근 후엔 전화를 무시한다.", score: 3 },
+      { choice: "인사팀에 신고한다.", score: 2 },
+      { choice: "똑같이 상사의 개인 시간에 연락한다.", score: 1 },
+    ],
+  },
+  {
+    id: 71,
+    situation: "친구가 자기 생일파티에 초대했는데 다른 약속이 있다.",
+    choices: [
+      { choice: "미리 양해를 구하고 짧게라도 축하해 준다.", score: 4 },
+      { choice: "친구의 생일을 우선시하고 다른 약속을 미룬다.", score: 3 },
+      { choice: "아예 거절하고 다른 약속에 간다.", score: 2 },
+      { choice: "거짓말로 핑계를 대고 둘 다 안 간다.", score: 1 },
+    ],
+  },
+  {
+    id: 72,
+    situation: "직장 동료가 내 업무 영역을 침범하고 있다.",
+    choices: [
+      { choice: "직접 대화로 역할 분담을 명확히 한다.", score: 4 },
+      { choice: "상사에게 일러바친다.", score: 2 },
+      { choice: "동료의 업무 영역도 침범한다.", score: 1 },
+      { choice: "눈치 없다며 뒤에서 험담한다.", score: 1 },
+    ],
+  },
+  {
+    id: 73,
+    situation: "함께 식사 중인 사람이 먹방을 너무 심하게 한다(소리가 크다).",
+    choices: [
+      { choice: "모른 척하고 내 식사에 집중한다.", score: 4 },
+      { choice: "조용히 식사해달라고 부탁한다.", score: 3 },
+      { choice: "일부러 불편한 표정을 지으며 쳐다본다.", score: 2 },
+      { choice: "자리를 피한다.", score: 2 },
+    ],
+  },
+  {
+    id: 74,
+    situation: "친구가 갑자기 큰 금액의 돈을 빌려달라고 한다.",
+    choices: [
+      { choice: "빌려줄 수 없는 이유를 솔직하게 설명한다.", score: 4 },
+      { choice: "돈이 없다고 거짓말한다.", score: 2 },
+      { choice: "연락을 무시한다.", score: 1 },
+      { choice: "후회할 줄 알면서도 빌려준다.", score: 2 },
+    ],
+  },
+  {
+    id: 75,
+    situation: "친구가 계속해서 같은 실패 이야기를 반복한다.",
+    choices: [
+      { choice: "공감해주되 앞으로의 방향에 대해 이야기한다.", score: 4 },
+      { choice: "이제 그만 하라고 직설적으로 말한다.", score: 2 },
+      { choice: "그 주제가 나올 때마다 자리를 피한다.", score: 3 },
+      { choice: "친구의 약점을 지적한다.", score: 1 },
+    ],
+  },
+  {
+    id: 76,
+    situation: "직장 회식에서 술게임 벌칙으로 민망한 행동을 하라고 한다.",
+    choices: [
+      { choice: "유머러스하게 거절하고 다른 벌칙을 제안한다.", score: 4 },
+      { choice: "그냥 자리를 떠난다.", score: 2 },
+      { choice: "어쩔 수 없이 따른다.", score: 2 },
+      { choice: "단호하게 거부하고 분위기를 망친다.", score: 1 },
+    ],
+  },
+  {
+    id: 77,
+    situation: "식당에서 주문한 음식이 오래 걸리고 있다.",
+    choices: [
+      { choice: "직원에게 정중하게 확인한다.", score: 4 },
+      { choice: "불평하며 매니저를 부른다.", score: 1 },
+      { choice: "그냥 계속 기다린다.", score: 3 },
+      { choice: "식당을 떠난다.", score: 1 },
+    ],
+  },
+  {
+    id: 78,
+    situation: "친구와 여행 중 취향과 여행 스타일이 너무 달라 힘들다.",
+    choices: [
+      { choice: "타협점을 찾아 서로의 취향을 존중한다.", score: 4 },
+      { choice: "내 방식대로만 하자고 고집한다.", score: 1 },
+      { choice: "불만을 삭히고 친구 뜻대로 따른다.", score: 2 },
+      { choice: "여행을 중간에 포기하고 먼저 귀국한다.", score: 1 },
+    ],
+  },
+  {
+    id: 79,
+    situation: "길에서 어떤 사람이 종교 단체 가입을 권유하며 따라온다.",
+    choices: [
+      { choice: "정중하게 관심 없다고 말하고 자리를 뜬다.", score: 4 },
+      { choice: "무시하고 빠르게 걷는다.", score: 3 },
+      { choice: "화를 내며 사람들 앞에서 망신을 준다.", score: 1 },
+      { choice: "가짜 연락처를 주고 빠져나온다.", score: 2 },
+    ],
+  },
+  {
+    id: 80,
+    situation: "방금 사귀기 시작한 사람이 내 전 연인에 대해 계속 질문한다.",
+    choices: [
+      {
+        choice: "간단히 답하고 과거보다 현재 관계에 집중하자고 말한다.",
+        score: 4,
+      },
+      { choice: "전 연인의 모든 단점을 말한다.", score: 1 },
+      { choice: "화를 내며 물어보지 말라고 한다.", score: 2 },
+      { choice: "거짓으로 좋은 이별이었다고만 말한다.", score: 3 },
+    ],
+  },
+  {
+    id: 81,
+    situation: "친구가 자기 작품(그림, 글 등)을 보여주며 어떤지 물어본다.",
+    choices: [
+      { choice: "장점을 먼저 말하고 건설적인 피드백을 준다.", score: 4 },
+      { choice: "진심으로 엄청 잘했다고 과장한다.", score: 2 },
+      { choice: "솔직하게 모든 단점을 지적한다.", score: 1 },
+      { choice: '"그냥 괜찮네"라고 대충 넘긴다.', score: 2 },
+    ],
+  },
+  {
+    id: 82,
+    situation: "직장 상사가 명백히 잘못된 결정을 내렸다.",
+    choices: [
+      { choice: "개인적으로 만나 우려사항을 정중히 전달한다.", score: 4 },
+      { choice: "회의 중 공개적으로 문제점을 지적한다.", score: 2 },
+      { choice: "동료들에게 상사의 무능함을 험담한다.", score: 1 },
+      { choice: "아무 말도 하지 않고 그대로 따른다.", score: 3 },
+    ],
+  },
+  {
+    id: 83,
+    situation: "지인의 결혼식에 초대받았는데 가기 싫다.",
+    choices: [
+      { choice: "축하 메시지와 함께 미리 양해를 구한다.", score: 4 },
+      { choice: "당일에 갑자기 아프다고 취소한다.", score: 1 },
+      { choice: "짧게라도 얼굴을 비추고 축하한다.", score: 3 },
+      { choice: "초대장을 받았다는 사실을 모른 척한다.", score: 1 },
+    ],
+  },
+  {
+    id: 84,
+    situation: "친구가 다이어트 중인데 맛있는 음식을 함께 먹자고 한다.",
+    choices: [
+      { choice: "다이어트 친화적인 식당을 제안한다.", score: 4 },
+      { choice: "다이어트 중이라면서 왜 먹자고 하냐고 비난한다.", score: 1 },
+      { choice: "일부러 고칼로리 음식점을 데려간다.", score: 1 },
+      { choice: "그냥 친구가 원하는 곳으로 간다.", score: 3 },
+    ],
+  },
+  {
+    id: 85,
+    situation: "온라인 게임에서 팀원이 계속 실수하여 게임이 잘 안 풀린다.",
+    choices: [
+      { choice: "긍정적으로 격려하며 팀워크를 강조한다.", score: 4 },
+      { choice: "도움이 될 만한 팁을 조언한다.", score: 3 },
+      { choice: "화를 내며 비난한다.", score: 1 },
+      { choice: "게임을 중간에 나가버린다.", score: 1 },
+    ],
+  },
+  {
+    id: 86,
+    situation: "친구가 자신의 연인과 헤어진 후 계속 슬퍼하고 있다.",
+    choices: [
+      { choice: "이야기를 들어주고 공감해준다.", score: 4 },
+      { choice: '"이제 그만 잊어"라고 조언한다.', score: 2 },
+      { choice: "바로 새로운 소개팅을 주선한다.", score: 1 },
+      { choice: "전 연인의 나쁜 점을 계속 말해준다.", score: 2 },
+    ],
+  },
+  {
+    id: 87,
+    situation: "친구들과의 여행에서 숙소 방 배정을 두고 갈등이 생겼다.",
+    choices: [
+      {
+        choice: "공정한 방법(가위바위보 등)으로 결정하자고 제안한다.",
+        score: 4,
+      },
+      { choice: "내가 원하는 방을 고집한다.", score: 1 },
+      { choice: "아예 다른 숙소를 따로 잡는다.", score: 2 },
+      { choice: "여행을 취소한다.", score: 1 },
+    ],
+  },
+  {
+    id: 88,
+    situation: "길에서 외국인 관광객이 길을 물어본다.",
+    choices: [
+      { choice: "아는 한 영어나 바디랭귀지로 도와준다.", score: 4 },
+      { choice: "모른 척 지나간다.", score: 1 },
+      { choice: "번역 앱을 활용해 도움을 준다.", score: 4 },
+      { choice: "다른 사람에게 도움을 요청하라고 한다.", score: 2 },
+    ],
+  },
+  {
+    id: 89,
+    situation: "친구가 자기 SNS에 좋아요를 눌러달라고 직접적으로 요청한다.",
+    choices: [
+      { choice: "부담 없이 좋아요를 누른다.", score: 4 },
+      { choice: "그런 요청이 부담스럽다고 솔직히 말한다.", score: 3 },
+      { choice: "요청은 무시하고 SNS도 보지 않는다.", score: 2 },
+      { choice: "친구의 행동을 비꼬는 글을 올린다.", score: 1 },
+    ],
+  },
+  {
+    id: 90,
+    situation: "친구가 새로 입은 옷이 어울리지 않는데 자신감에 차 있다.",
+    choices: [
+      { choice: "그래도 긍정적인 면을 찾아 칭찬한다.", score: 4 },
+      { choice: "솔직하게 어울리지 않는다고 말한다.", score: 2 },
+      { choice: "다른 친구들에게 못생겼다고 뒤에서 말한다.", score: 1 },
+      { choice: "사진을 찍어 SNS에 공유한다.", score: 1 },
+    ],
+  },
+  {
+    id: 91,
+    situation: "대중교통에서 옆 사람이 계속 내 공간을 침범하고 있다.",
+    choices: [
+      { choice: "조금 거리를 두거나 자리를 옮긴다.", score: 4 },
+      { choice: "직접적으로 공간을 지켜달라고 요청한다.", score: 3 },
+      { choice: "일부러 크게 기침을 한다.", score: 2 },
+      { choice: "똑같이 그 사람의 공간을 침범한다.", score: 1 },
+    ],
+  },
+  {
+    id: 92,
+    situation: "직장 동료가 내 업무 영역을 침범하고 있다.",
+    choices: [
+      { choice: "상사에게 내 기여도를 명확히 문서화하여 보고한다.", score: 4 },
+      { choice: "해당 동료에게 직접 confrontation한다.", score: 3 },
+      { choice: "다른 동료들에게 그 사람의 행동을 폭로한다.", score: 1 },
+      { choice: "그 동료의 업무도 방해한다.", score: 1 },
+    ],
+  },
+  {
+    id: 93,
+    situation: "상사가 퇴근 시간 후에도 업무 관련 메시지를 보낸다.",
+    choices: [
+      { choice: "다음 날 출근 후 답장한다.", score: 4 },
+      {
+        choice: "업무 시간 외 연락에 대한 가이드라인을 정중히 요청한다.",
+        score: 3,
+      },
+      { choice: "메시지를 무시한다.", score: 2 },
+      { choice: "상사의 개인 시간에도 업무 질문을 한다.", score: 1 },
+    ],
+  },
+  {
+    id: 94,
+    situation:
+      "직장에서 같은 팀원이 내 아이디어를 베껴서 자기 것처럼 발표했다.",
+    choices: [
+      { choice: "회의 후 개인적으로 만나 감정을 솔직히 표현한다.", score: 4 },
+      { choice: "다음 회의에서 그 아이디어의 원작자임을 밝힌다.", score: 2 },
+      { choice: "그 사람의 아이디어도 훔쳐서 똑같이 한다.", score: 1 },
+      { choice: "상사에게 직접 고발한다.", score: 2 },
+    ],
+  },
+  {
+    id: 95,
+    situation: "친한 친구가 내가 정말 싫어하는 사람을 모임에 초대했다.",
+    choices: [
+      { choice: "예의를 갖추고 그 사람과 최소한의 상호작용만 한다.", score: 4 },
+      { choice: "친구에게 왜 그 사람을 불렀는지 따진다.", score: 2 },
+      { choice: "모임에 불참한다.", score: 3 },
+      { choice: "그 사람 앞에서 노골적으로 불쾌감을 표시한다.", score: 1 },
+    ],
+  },
+  {
+    id: 96,
+    situation: "미팅 중에 누군가 내 제안에 공개적으로 심하게 비판했다.",
+    choices: [
+      {
+        choice: "차분히 자신의 의견을 다시 설명하고 건설적인 토론을 이어간다.",
+        score: 4,
+      },
+      { choice: "그 사람의 의견도 비판한다.", score: 1 },
+      { choice: "침묵하고 넘어간다.", score: 3 },
+      { choice: "다른 사람들 앞에서 그 사람의 전문성을 의심한다.", score: 1 },
+    ],
+  },
+  {
+    id: 97,
+    situation: "지인이 SNS에 허위 정보가 담긴 글을 공유했다.",
+    choices: [
+      { choice: "개인 메시지로 정확한 정보를 공손하게 알려준다.", score: 4 },
+      { choice: "공개 댓글로 틀렸다고 지적한다.", score: 2 },
+      { choice: "무시한다.", score: 3 },
+      { choice: "해당 글에 모욕적인 댓글을 단다.", score: 1 },
+    ],
+  },
+  {
+    id: 98,
+    situation: "연인이 친구들과의 약속에 나를 초대하지 않았다.",
+    choices: [
+      { choice: "나중에 둘만 있을 때 솔직하게, 침착하게 대화한다.", score: 4 },
+      { choice: "SNS에 간접적인 불만을 표현하는 글을 올린다.", score: 1 },
+      { choice: "화를 내며 따진다.", score: 2 },
+      { choice: "나도 비밀 약속을 만들어 보복한다.", score: 1 },
+    ],
+  },
+  {
+    id: 99,
+    situation:
+      "식당에서 밥을 먹고 있는데 모르는 사람이 갑자기 사진 찍어달라고 부탁한다.",
+    choices: [
+      { choice: "식사를 잠시 중단하고 친절하게 찍어준다.", score: 4 },
+      { choice: "미안하다고 거절한다.", score: 3 },
+      { choice: "짜증내며 거절한다.", score: 1 },
+      { choice: "일부러 엉망으로 찍어준다.", score: 1 },
+    ],
+  },
+  {
+    id: 100,
+    situation: "친구가 자신의 SNS에 내가 동의하지 않은 내 사진을 올렸다.",
+    choices: [
+      { choice: "개인적으로 연락해서 사진 삭제를 요청한다.", score: 4 },
+      { choice: "공개 댓글로 사진 내려달라고 요구한다.", score: 2 },
+      { choice: "똑같이 친구의 사진을 올린다.", score: 1 },
+      { choice: "SNS에서 친구를 차단한다.", score: 2 },
+    ],
+  },
 ];
