@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     padding: 15,
     justifyContent: "center",
     borderWidth: 1,
-    borderColor: "#999",
+    borderColor: "#000000",
     borderRadius: 12,
     marginBottom: 10,
     shadowColor: "#000",
@@ -46,13 +46,13 @@ const styles = StyleSheet.create({
   },
   containerPressed: {
     backgroundColor: "#f0f0f0",
-    borderColor: "#bbb",
+    borderColor: "#000000",
   },
   buttonText: {
     fontSize: 18,
     fontWeight: "500",
     textAlign: "center",
-    color: "#444",
+    color: "#111111",
   },
   buttonTextPressed: {
     color: "#222",

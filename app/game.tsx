@@ -37,30 +37,13 @@ const Game = () => {
     <View style={styles.container}>
       <Questions question={questions[currentIndex.current].situation} />
       <View style={styles.selectionContainer}>
-        <Selection
-          selection={questions[currentIndex.current].choices[0].choice}
-          onPress={() =>
-            handleSelection(questions[currentIndex.current].choices[0].choice)
-          }
-        />
-        <Selection
-          selection={questions[currentIndex.current].choices[1].choice}
-          onPress={() =>
-            handleSelection(questions[currentIndex.current].choices[1].choice)
-          }
-        />
-        <Selection
-          selection={questions[currentIndex.current].choices[2].choice}
-          onPress={() =>
-            handleSelection(questions[currentIndex.current].choices[2].choice)
-          }
-        />
-        <Selection
-          selection={questions[currentIndex.current].choices[3].choice}
-          onPress={() =>
-            handleSelection(questions[currentIndex.current].choices[3].choice)
-          }
-        />
+        {questions[currentIndex.current].choices.map((choice) => (
+          <Selection
+            key={choice.choice}
+            selection={choice.choice}
+            onPress={() => handleSelection(choice.choice)}
+          />
+        ))}
       </View>
     </View>
   );
