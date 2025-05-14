@@ -12,10 +12,20 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "distribution": "store",
+      "ios": {
+        "image": "latest"
+      }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "si14444@naver.com",
+        "ascAppId": "6745865495",
+        "appleTeamId": "9999999999"
+      }
+    }
   }
 }

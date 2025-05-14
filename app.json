@@ -3,7 +3,7 @@
     "name": "sense-it",
     "slug": "sense-it",
     "scheme": "sense-it",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +18,8 @@
       "bundleIdentifier": "com.si14444.senseit",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "buildNumber": "2"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,10 +30,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-router",
-      "react-native-google-mobile-ads"
-    ],
+    "plugins": ["expo-router", "react-native-google-mobile-ads"],
     "extra": {
       "router": {
         "origin": false
